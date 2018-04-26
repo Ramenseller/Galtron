@@ -72,11 +72,7 @@ def buttonAction(stats, selectedName, setting, screen, ship, aliens, bullets, eB
     if selectedName == 'play':
         checkPlayBtn(setting, screen, stats, ship, aliens, bullets, eBullets, charged_bullets)
     elif selectedName == 'retry':
-<<<<<<< HEAD
-        checkPlayBtn(setting, screen, stats, ship, aliens, bullets, eBullets)
-=======
         checkPlayBtn(setting, screen, stats, ship, aliens, bullets, eBullets, charged_bullets)
->>>>>>> e4979d63aa7a026f6f173ec58782d90861447f4c
         charged_bullets.empty()
         boss = None
     elif selectedName == 'menu':
